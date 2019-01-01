@@ -1,8 +1,8 @@
-NAME="SUCHISMITA"
-length=$(echo $NAME | wc -L )
+
+length=$(echo $1 | wc -L )
 echo $length
 
 if [ $length -ge 5 ]
 then
-   echo "$NAME is greater than equals to 5"
+   echo "$1 is greater than equals to 5"
 fi
